@@ -6,13 +6,13 @@ Network security threats are a persistent challenge for organizations, governmen
 
 
 # Table of Contents :
-•	Introduction 
-•	Denial of Service (DoS) attacks
-•	Man-in-the-Middle (MITM) Attacks 
-•	Spoofing Attacks 
-•	Best Practices and Preventive Measures 
-•	Conclusion 
-•	References
+### •	Introduction 
+### •	Denial of Service (DoS) attacks
+### •	Man-in-the-Middle (MITM) Attacks 
+### •	Spoofing Attacks 
+### •	Best Practices and Preventive Measures 
+### •	Conclusion 
+### •	References
 
 
 # Introduction :
@@ -22,65 +22,65 @@ Network security threats represent malicious activities designed to compromise t
 # Denial-of-Service (DoS) Attacks :
 A Denial-of-Service (DoS) attack aims to disrupt the normal functioning of a targeted server, service, or network by overwhelming it with excessive requests or exploiting system vulnerabilities, causing it to become inaccessible to legitimate users.
 
-## How DoS Attacks Work: 
+### How DoS Attacks Work: 
 Attackers flood the target with traffic or exploit weaknesses until resources are exhausted, causing service outages. Distributed Denial of Service (DDoS) attacks scale this by using botnets that are mainly networks of compromised devices.
 
-## Impact: 
+### Impact: 
 These attacks result in downtime, loss of revenue, customer dissatisfaction, reputational harm and possible legal penalties.
 
-## Real-World Example: 
+### Real-World Example: 
 In February 2020, Amazon Web Services mitigated a record-breaking DDoS attack that peaked at 2.3 Tbps, illustrating the growing scale and sophistication of such attacks.
 
-## Mitigation: 
-•	Deploy firewalls, intrusion detection systems, and anti-DDoS services.
-•	Implement rate-limiting and traffic-filtering mechanisms.
-•	Regularly update software and network security protocols.
+### Mitigation: 
+#### •	Deploy firewalls, intrusion detection systems, and anti-DDoS services.
+#### •	Implement rate-limiting and traffic-filtering mechanisms.
+#### •	Regularly update software and network security protocols.
 
 
 # Man-in-the-Middle (MITM) Attacks :
 A MITM attack occurs when an attacker secretly intercepts and possibly alters communications between two parties, often to eavesdrop, steal sensitive data or inject malicious content.
 
-## How MITM Attacks Work: 
+### How MITM Attacks Work: 
 Attackers place themselves between the victim and the intended communication partner via local network access, compromised routers or DNS spoofing—to monitor or manipulate the data that is being exchanged.
 
-## Impact: 
+### Impact: 
 MITM attacks can lead to unauthorized data access, identity theft, fraud, breach of confidentiality and financial losses for both individuals and organizations.
 
-## Real-World Example: 
+### Real-World Example: 
 In 2024–2025, the Salt Typhoon group executed MITM intrusions into U.S. telecom networks, enabling interception of voice calls and location tracking without detection, the largest telecom hack in recent history.
 
-## Mitigation:
-•	Use strong encryption (TLS/SSL) and secure VPN connections.
-•	Enforce certificate management and regular software updates.
-•	Employ multi-factor authentication and endpoint security tools.
-•	Train users to recognize suspicious activity and certificate errors.
+### Mitigation:
+#### •	Use strong encryption (TLS/SSL) and secure VPN connections.
+#### •	Enforce certificate management and regular software updates.
+#### •	Employ multi-factor authentication and endpoint security tools.
+#### •	Train users to recognize suspicious activity and certificate errors.
 
 
 # Spoofing Attacks :
 Spoofing involves impersonation where an attacker pretends to be a trusted source to gain unauthorized access, steal information, or bypass security controls.
 
-## How Spoofing Attacks Work: 
+### How Spoofing Attacks Work: 
 Attackers forge data such as IP addresses, DNS records, email headers or websites deceiving victims into believing they are interacting with a legitimate party.
 
-## Impact: 
+### Impact: 
 Spoofing attacks facilitate credential theft, session hijacking, fraud and further attacks compromising both individuals and organizations.
 
-## Real-World Example: 
+### Real-World Example: 
 DNS spoofing techniques have been used to redirect users from banking websites to attacker-controlled clones, leading to credential theft and financial loss.
 
-## Mitigation:
-•	Implement IP address verification and strong authentication mechanisms (e.g., MFA).
-•	Use secure cryptographic protocols like TLS or IPsec to encrypt communication.
-•	Maintain up-to-date DNS servers and deploy reputable endpoint security software.
+### Mitigation:
+#### •	Implement IP address verification and strong authentication mechanisms (e.g., MFA).
+#### •	Use secure cryptographic protocols like TLS or IPsec to encrypt communication.
+#### •	Maintain up-to-date DNS servers and deploy reputable endpoint security software.
 
 
 # Best Practices and Preventive Measures : 
-•	Implement multiple security layers and zero-trust principles.
-•	Deploy next-generation firewalls, IPS/IDS and secure gateways. 
-•	Implement multi-factor authentication (MFA), traffic monitoring, filtering and anomaly detection.
-•	Conduct regular vulnerability scanning and penetration testing.
-•	Provide mandatory security awareness training for all employees. 
-•	Conduct regular phishing simulations and security drills.
+#### •	Implement multiple security layers and zero-trust principles.
+#### •	Deploy next-generation firewalls, IPS/IDS and secure gateways. 
+#### •	Implement multi-factor authentication (MFA), traffic monitoring, filtering and anomaly detection.
+#### •	Conduct regular vulnerability scanning and penetration testing.
+#### •	Provide mandatory security awareness training for all employees. 
+#### •	Conduct regular phishing simulations and security drills.
 
 
 # Conclusion :
